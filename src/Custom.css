@@ -1,0 +1,92 @@
+.form-control,
+.dropdown-toggle,
+.dropdown-item {
+    text-transform: none !important;
+}
+.header-column {
+    background-color: #e6f1fd;
+}
+.navbar-transparent {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.btn-transparent {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.text-normal {
+    text-transform: none;
+}
+.dropdown-menu-custom {
+    left: 50% !important;
+    transform: translate(-50%, 10%) !important;
+}
+.background-container {
+    width: 100%; /* Đảm bảo phần nền chiếm toàn bộ chiều rộng của màn hình */
+    height: 100vh; /* Chiều cao bằng 100% chiều cao của viewport */
+    /*background-image: url('https://mekoong.com/wp-content/uploads/2022/12/Hinh-nen-4k-thuc-thi-nhiem-vu.png');*/
+    background-image: url('https://thuthuatphanmem.vn/uploads/2018/05/23/wallpaper-4k-hinh-nen-4k-don-gian_101307553.jpg');
+    background-size: cover; /* Lấp đầy hoàn toàn phần nền */
+    background-position: center; /* Đảm bảo ảnh nền nằm giữa */
+}
+.container-wrap{
+    padding-left: 3.2rem !important;
+    padding-right: 3.2rem !important;
+}
+.customDiv {
+    background: #e8eaed;
+    font-size: 13px;
+    font-family: sans-serif, Arial, Helvetica;
+}
+.whiteText {
+    color: white !important;
+}
+.customDataGrid .MuiDataGrid-columnHeaderTitle {
+    font-weight: bold;
+}
+.customDataGrid .MuiDataGrid-row:nth-child(odd) {
+    background-color: #ffffff; /* Màu nền cho hàng lẻ */
+}
+
+.customDataGrid .MuiDataGrid-row:nth-child(even) {
+    background-color: #f2f2f2; /* Màu nền cho hàng chẵn */
+}
+.fixed-height-card-body {
+        height: 170px; /* Đặt chiều cao cố định */
+        overflow: hidden; /* Ẩn nội dung vượt quá chiều cao cố định nếu cần */
+}
+.dropdown-menu-custom-1 {
+    display: none;
+}
+
+.btn-transparent-1:hover .dropdown-menu-custom {
+    display: block;
+    position: absolute; /* Đảm bảo menu dropdown xuất hiện ở vị trí chính xác */
+    top: 100%; /* Đặt nó trực tiếp dưới nút */
+    left: 0;
+    z-index: 1000;
+}
+.shopping-cart-container {
+    max-height: 600px; /* Đặt chiều cao tối đa của container */
+    overflow-y: auto; /* Hiển thị thanh cuộn dọc khi danh sách quá dài */
+    overflow-x: hidden; /* Ẩn thanh cuộn ngang */
+}
+
+.shopping-cart-list {
+    width: 100%; /* Đảm bảo danh sách sản phẩm chiếm toàn bộ chiều rộng của container */
+}
+.navbar-item i {
+    position: relative;
+    top: 1px; /* Điều chỉnh vị trí theo chiều dọc */
+    margin-right: 5px; /* Điều chỉnh khoảng cách giữa icon và chữ */
+}
+
+.navbar-item span {
+    position: relative;
+    top: -1px; /* Điều chỉnh vị trí theo chiều dọc */
+}
+.navbar {
+    display: grid;
+    grid-template-columns: auto auto; /* Hai cột tự động */
+    grid-gap: 10px; /* Khoảng cách giữa các cột */
+}
